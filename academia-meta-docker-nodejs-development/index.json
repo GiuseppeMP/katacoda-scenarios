@@ -93,7 +93,7 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": { "uilayout": "editor-terminal", "hidefinish": true },
   "backend": {
     "imageid": "vscode"
   }

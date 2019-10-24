@@ -23,8 +23,8 @@ http.createServer(handle).listen(8080)
 
 3.Podemos iniciar a nossa aplicação exemplo utilizando o comando abaixo:
 
-`npm start`
+`npm start`{{execute HOST1}}
 
 4.Testando nossa aplicação:
 
-`curl localhost:8080`
+`curl localhost:8080`{{execute HOST1}}

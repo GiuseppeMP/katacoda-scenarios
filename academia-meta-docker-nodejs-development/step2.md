@@ -23,12 +23,11 @@ app.listen(3000, function () {
 });
 </pre>
 
-## Atualizando Scripts
+## Atualizando scripts:start
 
 Altere o conteúdo do nosso arquivo _package.json_, adicionando ao objeto script o atributo start:`"start" : "node index.js"`{{clipboard}}
 
 <pre class="file" data-target="clipboard">
-{
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start" : "node index.js"

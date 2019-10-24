@@ -1,10 +1,7 @@
-var express = require('express');
-var app = express();
+Execute o comando de inicializar um module(project) nodejs usando npm, como abaixo:
 
-app.get('/', function (req, res) {
-res.send('Hello World!');
-});
+`npm init --yes`
 
-app.listen(3000, function () {
-console.log('Example app listening on port 3000!');
-});
+> > yes, indica todas as opções default
+
+Em seguida crie um arquivo no dir raiz chamado index.js.

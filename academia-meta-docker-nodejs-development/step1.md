@@ -10,7 +10,7 @@
 
 `touch index.js`{{execute HOST1}}
 
-```js
+<pre class="file" data-filename="index.js" data-target="replace">
 const http = require('http')
 
 const handle = function(request, response) {
@@ -19,7 +19,7 @@ const handle = function(request, response) {
 }
 
 http.createServer(handle).listen(8080)
-```
+</pre>
 
 3.Podemos iniciar a nossa aplicação exemplo utilizando o comando abaixo:
 
@@ -28,3 +28,7 @@ http.createServer(handle).listen(8080)
 4.Testando nossa aplicação:
 
 `curl localhost:8080`{{execute HOST1}}
+
+```
+
+```

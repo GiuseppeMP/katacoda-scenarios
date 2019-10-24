@@ -7,8 +7,7 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md",
-        "courseData": "Dockerfile"
+        "text": "step1.md"
       },
       {
         "title": "Step 2",
@@ -104,5 +103,5 @@
   "backend": {
     "imageid": "ubuntu"
   },
-  "assets": { "host01": [{ "file": "*", "target": "~/resources/" }] }
+  "assets": { "client": [{ "file": "*", "target": "~/resources/" }] }
 }

@@ -25,22 +25,14 @@ app.listen(3000, function () {
 
 ## Atualizando Scripts
 
-Altere o conteúdo do nosso arquivo _package.json_, adicionando script de start, conforme o snippet abaixo:
+Altere o conteúdo do nosso arquivo _package.json_, adicionando ao objeto script o atributo start:`"start" : "node index.js"`{{clipboard}}
 
-<pre class="file" data-filename="package.json" data-target="replace">
+<pre class="file" data-filename="package.json" data-target="clipboard">
 {
-  "name": "root",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start" : "node index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-}
+  }
 </pre>
 
 ## Testando aplicação

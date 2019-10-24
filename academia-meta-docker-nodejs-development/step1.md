@@ -23,7 +23,7 @@ http.createServer(handle).listen(8080)
 
 3.Podemos iniciar a nossa aplicação exemplo utilizando o comando abaixo:
 
-`npm start`{{execute T1}}
+`node index.js`{{execute T1}}
 
 4.Testando nossa aplicação:
 

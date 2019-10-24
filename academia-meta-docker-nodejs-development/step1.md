@@ -28,7 +28,3 @@ http.createServer(handle).listen(8080)
 4.Testando nossa aplicação:
 
 `curl localhost:8080`{{execute HOST1}}
-
-```
-
-```

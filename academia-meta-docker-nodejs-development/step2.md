@@ -27,7 +27,7 @@ app.listen(3000, function () {
 
 Altere o conteúdo do nosso arquivo _package.json_, adicionando ao objeto script o atributo start:`"start" : "node index.js"`{{clipboard}}
 
-<pre class="file" data-filename="package.json" data-target="clipboard">
+<pre class="file" data-target="clipboard">
 {
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -41,7 +41,11 @@ Instalando dependências:
 `npm install`{{execute T1}}
 
 Iniciando servidor:
-`npm start`{{execute T1}}
+
+`` npm start & APP_PID=`echo \$!` ``{{execute T1}}
 
 Testando nossa aplicação:
 `curl localhost:3000`{{execute T1}}
+
+Desligando servidor:
+`kill $APP_PID`{{execute T1}}

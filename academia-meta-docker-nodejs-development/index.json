@@ -103,5 +103,5 @@
   "backend": {
     "imageid": "ubuntu"
   },
-  "assets": { "host01": [{ "file": "/assets/*", "target": "/resources" }] }
+  "assets": { "host01": [{ "file": "*", "target": "~/resources/" }] }
 }

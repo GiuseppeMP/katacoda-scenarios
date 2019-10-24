@@ -98,10 +98,17 @@
     "ide": "ssh host01 '/opt/start-vscode.sh'",
     "idePort": 23000,
     "hideintro": true,
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "uisettings": "javascript",
+    "icon": "fa-node",
+    "uimessage1": "Academia Meta"
   },
   "backend": {
     "imageid": "ubuntu"
   },
-  "assets": { "host01": [{ "file": "*", "target": "/root" }] }
+  "assets": {
+    "host01": [{ "file": "*", "target": "/root" }],
+    "host02": [{ "file": "*", "target": "/root" }],
+    "client": [{ "file": "*", "target": "/home/scrapbook/" }]
+  }
 }

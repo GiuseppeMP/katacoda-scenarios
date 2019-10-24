@@ -10,7 +10,7 @@ Para adicionar o jest as dependências de desenvolvimento do projeto execute o c
 
 Em seguida crie um arquivo de tests no dir raiz chamado _index.test.js_ `touch index.test.js`{{execute T1}} com conteúdo abaixo:
 
-<pre class="file" data-filename="index.js" data-target="replace">
+<pre class="file" data-filename="index.tests.js" data-target="replace">
 
 test('adds 1 + 2 to equal 3', () => {
   expect(1+2).toBe(3);

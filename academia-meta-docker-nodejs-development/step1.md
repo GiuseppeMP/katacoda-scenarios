@@ -23,7 +23,7 @@ http.createServer(handle).listen(8080)
 
 3.Podemos iniciar a nossa aplicação exemplo utilizando o comando abaixo:
 
-`APP_PID=node index.js &`{{execute T1}}
+`node index.js & APP_PID=`echo \$!``{{execute T1}}
 
 4.Testando nossa aplicação:
 

@@ -95,6 +95,6 @@
   },
   "environment": { "uilayout": "editor-terminal", "hidefinish": true },
   "backend": {
-    "imageid": "vscode"
+    "imageid": "ubuntu"
   }
 }

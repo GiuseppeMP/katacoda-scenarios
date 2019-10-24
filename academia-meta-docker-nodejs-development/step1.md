@@ -2,7 +2,7 @@
 
 1.Execute o comando de inicializar um module(project) nodejs usando npm, como abaixo:
 
-`shell npm init --yes`
+`npm init --yes`
 
 > --yes: Todas as opções default
 
@@ -18,3 +18,11 @@ const handle = function(request, response) {
 
 http.createServer(handle).listen(8080)
 ```
+
+3.Podemos iniciar a nossa aplicação exemplo utilizando o comando abaixo:
+
+`npm start`
+
+4.Testando nossa aplicação:
+
+`curl localhost:8080`

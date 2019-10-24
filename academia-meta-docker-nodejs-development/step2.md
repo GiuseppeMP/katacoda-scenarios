@@ -23,10 +23,33 @@ app.listen(3000, function () {
 });
 </pre>
 
+## Atualizando Scripts
+
+Altere o conteúdo do nosso arquivo _package.json_, adicionando script de start, conforme o snippet abaixo:
+
+<pre class="file" data-filename="package.json" data-target="replace">
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+</pre>
+
 ## Testando aplicação
 
-`npm install && npm start`{{execute T1}}
+Instalando dependências:
+`npm install`{{execute T1}}
 
-4.Testando nossa aplicação:
+Iniciando servidor:
+`npm start`{{execute T1}}
 
+Testando nossa aplicação:
 `curl localhost:3000`{{execute T1}}

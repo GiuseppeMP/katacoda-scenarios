@@ -23,8 +23,12 @@ http.createServer(handle).listen(8080)
 
 3.Podemos iniciar a nossa aplicação exemplo utilizando o comando abaixo:
 
-`node index.js`{{execute T1}}
+`APP_PID=node index.js &`{{execute T1}}
 
 4.Testando nossa aplicação:
 
 `curl localhost:8080`{{execute T1}}
+
+5.Antes de avançar para próximo passo, faça shutdown do servidor node:
+
+`kill $APP_PID`{{execute T1}}

@@ -2,11 +2,13 @@
 
 1.Execute o comando de inicializar um module(project) nodejs usando npm, como abaixo:
 
-`npm init --yes`
+`npm init --yes`{{execute HOST1}}
 
 > --yes: Todas as opções default
 
 2.Em seguida crie um arquivo no dir raiz chamado _index.js_ com conteúdo abaixo:
+
+`touch index.js`{{execute HOST1}}
 
 ```js
 const http = require('http')

@@ -102,6 +102,6 @@
     "uisettings": "javascript"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "ubuntu"
   }
 }

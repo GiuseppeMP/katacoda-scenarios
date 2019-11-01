@@ -1,4 +1,4 @@
-# Criando aplicação exemplo - step 1
+# Criando aplicaçãos - step 1
 
 1.Execute o comando de inicializar um module(project) nodejs usando npm, como abaixo:
 

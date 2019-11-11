@@ -4,7 +4,7 @@
 
 `npm init --yes`{{execute T1}}
 
-> --yes: Todas as opções default
+> --yes: Todas as opções default do comando init
 
 2.Em seguida crie um arquivo no dir raiz chamado _index.js_ com conteúdo abaixo:
 

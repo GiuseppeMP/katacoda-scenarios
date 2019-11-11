@@ -25,9 +25,9 @@
       "text": "finish.md"
     },
     "assets": {
-      "host01": [{ "file": "*", "target": "/root" }],
-      "host02": [{ "file": "*", "target": "/root" }],
-      "client": [{ "file": "*", "target": "/home/scrapbook/" }]
+      "host01": [{ "file": "assets/*", "target": "/root" }],
+      "host02": [{ "file": "assets/*", "target": "/root" }],
+      "client": [{ "file": "assets/*", "target": "/home/scrapbook/" }]
     }
   },
   "environment": {

@@ -2,7 +2,7 @@
 
 1.Execute o comando de inicializar um module(project) nodejs usando npm, como abaixo:
 
-`npm init --yes`{{execute T1}}
+`npm init`{{execute T1}}
 
 > --yes: Todas as opções default do comando init
 
